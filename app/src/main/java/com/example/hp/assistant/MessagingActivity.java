@@ -25,7 +25,7 @@ public class MessagingActivity {
                 Toast.makeText(cont, phno, Toast.LENGTH_SHORT).show();
 
                 SmsManager smsmanager = SmsManager.getDefault();
-                smsmanager.sendTextMessage(phno, null, "Call me !!!", null, null);
+                smsmanager.sendTextMessage(phno, null, "hi", null, null);
                 return true;
             }
         }

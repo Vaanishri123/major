@@ -21,25 +21,61 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="1. 'MESSAGE', 'TELL', 'INFORM' for messaging. " />
+        android:text="1. 'CALL', 'CONNECT ME TO', 'CONNECT TO' for calling. " />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="2. 'OPEN', 'LAUNCH' for opening an app. " />
+        android:text="2. 'MESSAGE', 'TELL', 'INFORM' for messaging. " />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="3. 'PLAY', 'LISTEN' for playing music. " />
+        android:text="3. 'OPEN', 'LAUNCH' for opening an app. " />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="4. 'ON/OFF FLASH/TORCH' for turning on/off flash. " />
+        android:text="4. 'ALARM FOR 3:20 A.M.' for setting alarm. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="5. 'PLAY', 'LISTEN' for playing music. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="6. 'ON/OFF FLASH/TORCH' for turning on/off flash. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="7. 'NEWS', 'HEADLINES' for latest news. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="8. 'WEATHER' for weather updates. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="9. 'REMINDER', 'MEMO' for setting a reminder. " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="10. 'CINEMAS', 'MOVIES' for locating nearby cinemas. " />
 
     <Button
         android:id="@+id/btn"
