@@ -119,6 +119,7 @@ public class MainActivity extends ActionBarActivity implements
                         Toast.makeText(this, text, Toast.LENGTH_SHORT).show();
 
                         if (FA.match("call", text) || FA.match("connect me to", text) || FA.match("connect to", text)) {
+                            Toast.makeText(this, "Searching...!!!", Toast.LENGTH_SHORT).show();
                             CallingActivity cl = new CallingActivity(this, text);
                             if (cl.makeCall()) {
                                 Toast.makeText(this, "Calling...!!!", Toast.LENGTH_SHORT).show();
@@ -153,9 +154,6 @@ public class MainActivity extends ActionBarActivity implements
                                 Toast.makeText(this, "Please try again ...!!!", Toast.LENGTH_SHORT).show();
                         } else if (FA.match("news", text) || FA.match("headlines", text)) {
                             NewsActivity newsActivity = new NewsActivity(this, text, tts);
-                        } else if (FA.match("cinemas", text) || FA.match("cinema", text) || FA.match("movies", text)) {
-                            NearbyCinemasActivity cinemasActivity = new NearbyCinemasActivity(this, text);
-                            cinemasActivity.findCinemas(tts);
                         } else if (FA.match("weather", text)) {
                             WeatherActivity weatherActivity = new WeatherActivity(this, text);
                             weatherActivity.getWeatherDetails(tts);

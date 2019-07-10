@@ -71,12 +71,6 @@
         android:layout_marginTop="5dp"
         android:text="9. 'REMINDER', 'MEMO' for setting a reminder. " />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="10. 'CINEMAS', 'MOVIES' for locating nearby cinemas. " />
-
     <Button
         android:id="@+id/btn"
         android:layout_width="wrap_content"
